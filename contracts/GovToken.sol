@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
-contract MyToken is ERC20, Ownable, ERC20Permit, ERC20Votes {
+contract GovToken is ERC20, Ownable, ERC20Permit, ERC20Votes {
     constructor(address initialOwner)
         ERC20("KG_Decentralized_Token", "KGT")
         Ownable(initialOwner)
